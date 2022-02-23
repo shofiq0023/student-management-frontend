@@ -1,0 +1,17 @@
+:root {
+    --list-bg-color: #CACACA;
+    --dark-alternative-text-color: #595959;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.dark {
+    color: var(--dark-alternative-text-color);
+}
+.student-list {
+    background: var(--list-bg-color);
+    padding: 10px;
+    border-radius: 10px;
+}
