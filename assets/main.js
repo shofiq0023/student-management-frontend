@@ -9,7 +9,7 @@ const DELETE_URL = "http://localhost:8080/api/delete/";
 
 // function to dynamically append result html to dom
 function htmlTemplate(result) {
-    template =
+    let template =
     `
         <li class="my-3 student-list">
             <div class="container-fluid">
@@ -120,6 +120,9 @@ $("#form").on("submit", function(e) {
         url: ADD_URL,
         data: JSON.stringify(data),
     });
+
+    // redirects to home page
+    windows.location.replace("/");
 });
 
 // [Delete] deletes a student from database
