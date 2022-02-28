@@ -7,6 +7,7 @@ const ADD_URL = "http://localhost:8080/api/add";
 const DELETE_URL = "http://localhost:8080/api/delete/";
 
 
+// function to dynamically append result html to dom
 function htmlTemplate(result) {
     template =
     `
